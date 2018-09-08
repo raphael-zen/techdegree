@@ -111,7 +111,7 @@ if __name__ == '__main__':
     def welcome_letter(players_full_list):
         for player in players_full_list:
             letter = open(str(player[0]).replace(" ", "_").lower() +".txt","w")
-            letter.write(f"Dear {player[3]},\n\nI have the pleasure to let you know that {player[0]} has been (randomly) allocated to team {player[4]}.\nThe first game will be on Sunday 9th September.\n\nSee you there!\n\nBest,\nMister League Builder.")
+            letter.write(f"Dear {player[3]},\n\nI have the pleasure to let you know that {player[0]} has been (randomly) allocated to team {player[4]}.\nThe first practice will be on Sunday 9th September.\n\nSee you there!\n\nBest,\nMister League Builder.")
             
     welcome_letter(final_full_list)
     
